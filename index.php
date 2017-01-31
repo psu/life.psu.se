@@ -195,7 +195,7 @@ BODY {
 
 <div class="life_header">
    Conway's Game of Life - Generation Viewer
-   <div class="sub">Made by <a href="mailto:pontus@psu.se">Pontus</a>, version 0.2</div>
+   <div class="sub">Made by <a href="mailto:pontus@psu.se">Pontus</a>, version 0.2.1</div>
 </div>
 
 <form action="" method="get">
