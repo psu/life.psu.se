@@ -22,19 +22,19 @@ for ($i=1;$i<=$size;$i++) {
    set_cell($state, 0);
 }
 if (!isset($_GET['start_values'])) {
-   $_GET['start_values'] = '9,41,40,38,37,31,30,27,20,19,17,16,13,10,';
+   $_GET['start_values'] = '';
 }
 foreach (explode(',', $_GET['start_values']) as $v) {
    set_cell($state, trim($v), 1); 
 }
 //--------------------------------------------------------------------------
 if (!isset($_GET['num_gen']) || $_GET['num_gen'] == '') {
-   $_GET['num_gen'] = 2;
+   $_GET['num_gen'] = 10;
 }
 $num_gen = $_GET['num_gen'];
 //--------------------------------------------------------------------------
 if (!isset($_GET['rule']) || $_GET['rule'] == '') {
-   $_GET['rule'] = "3/3";
+   $_GET['rule'] = "23/3";
 }
 $rule = $_GET['rule'];
 //--------------------------------------------------------------------------
